@@ -36,6 +36,7 @@ The plugin can be configured in the [**semantic-release** configuration file](ht
             "awsRegion": "eu-west-1",
             "s3Bucket": "production-eu-bucket",
             "s3Key": "builds/${nextRelease.version}.zip",
+            "s3LegalHold": true,
             "replaceS3BucketVariable": "s3_bucket_eu",
             "replaceS3KeyVariable": "s3_key_eu",
             "replaceS3VersionIdVariable": "s3_object_version_eu"
@@ -47,6 +48,7 @@ The plugin can be configured in the [**semantic-release** configuration file](ht
             "awsRegion": "us-east-1",
             "s3Bucket": "production-us-bucket",
             "s3Key": "builds/${nextRelease.version}.zip",
+            "s3LegalHold": true,
             "replaceS3BucketVariable": "s3_bucket_us",
             "replaceS3KeyVariable": "s3_key_us",
             "replaceS3VersionIdVariable": "s3_object_version_us"
@@ -94,6 +96,7 @@ The plugin uses [AWS SDK for JavaScript v3](https://github.com/aws/aws-sdk-js-v3
 | `destinations.*.awsRegion` | (REQUIRED) AWS Region | N/A |
 | `destinations.*.s3Bucket` | (REQUIRED) AWS Region | N/A |
 | `destinations.*.s3Key` | (REQUIRED) Key for sourceFile. It's templateable with `branch` name and `nextRelease` | N/A |
+| `destinations.*.s3LegalHold` | Set to `true` to turn 'ON' legal hold for object | `false` |
 | `destinations.*.replaceS3BucketVariable` | (REQUIRED) Variable to patch this destinations S3 bucket name | N/A |
 | `destinations.*.replaceS3KeyVariable` | (REQUIRED) Variable to patch this destinations S3 key | N/A |
 | `destinations.*.replaceS3VersionIdVariable` | Variable to patch this destinations S3 Object Version Id. This is only supported if the bucket has enabled versioning. It's HIGHLY recommended though, since it's the only way to have immutability. | `null` |
