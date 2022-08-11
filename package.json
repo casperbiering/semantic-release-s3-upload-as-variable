@@ -31,19 +31,21 @@
     "aggregate-error": "^3.1.0",
     "ajv": "^8.11.0",
     "escape-string-regexp": "^4.0.0",
-    "glob": "^8.0.3",
+    "fast-glob": "^3.2.11",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
+    "aws-sdk-client-mock": "^1.0.0",
     "conventional-changelog-conventionalcommits": "^5.0.0",
     "eslint": "^8.19.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-jest": "^26.5.3",
+    "eslint-plugin-jest": "^26.8.2",
     "eslint-plugin-prettier": "^4.2.1",
     "jest": "^28.1.2",
+    "mock-fs": "^5.1.4",
     "prettier": "^2.7.1",
     "semantic-release": "^19.0.3"
   }
