@@ -1,6 +1,6 @@
 {
   "name": "@casperbiering/semantic-release-s3-upload-as-variable",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "semantic-release plugin to upload zip to S3 and patch variables to point to it",
   "main": "index.js",
   "files": [

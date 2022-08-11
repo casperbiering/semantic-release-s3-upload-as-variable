@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0](https://github.com/casperbiering/semantic-release-s3-upload-as-variable/compare/v1.0.1...v1.1.0) (2022-08-11)
+
+
+### Features
+
+* Support for S3 Object Lock legal hold ([#1](https://github.com/casperbiering/semantic-release-s3-upload-as-variable/issues/1)) ([b00c2ac](https://github.com/casperbiering/semantic-release-s3-upload-as-variable/commit/b00c2ac0906a6c515996b793a67b38ecc432b7e8))
+
 ## [1.0.1](https://github.com/casperbiering/semantic-release-s3-upload-as-variable/compare/v1.0.0...v1.0.1) (2022-07-12)
 
 
